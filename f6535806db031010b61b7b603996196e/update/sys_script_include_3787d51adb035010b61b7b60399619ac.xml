@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_287489_wish_list.SincroniaTestOne</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>SincroniaTestOne</name>
+        <script><![CDATA[var SincroniaTestOne = Class.create();
+SincroniaTestOne.prototype = {
+    initialize: function() {
+    },
+	testOne:function()
+	{
+	gs.info("Inside SincroniaTestOne");
+	},
+    type: 'SincroniaTestOne'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-06 16:28:13</sys_created_on>
+        <sys_id>3787d51adb035010b61b7b60399619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SincroniaTestOne</sys_name>
+        <sys_package display_value="Wish List" source="x_287489_wish_list">f6535806db031010b61b7b603996196e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Wish List">f6535806db031010b61b7b603996196e</sys_scope>
+        <sys_update_name>sys_script_include_3787d51adb035010b61b7b60399619ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-06 16:28:13</sys_updated_on>
+    </sys_script_include>
+</record_update>
